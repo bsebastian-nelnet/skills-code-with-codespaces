@@ -8,14 +8,18 @@
     "overrideCommand": false,
 
     //Add the IDs of extensions you want installed
-    "customizations":{"vscode":{
+    "customizations":{
+        "vscode":
+        {
         "extensions":["Github.copilot"]
-    },
-    "codespaces" : {
+        },
+         "codespaces" : 
+         {
         "openFiles" : [
             "codespace.md"
         ]
-    },
-    "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
-}
+    }
+    
+},
+"postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
 }
